@@ -12,7 +12,11 @@ docker compose up -d
 ```rb
 docker compose exec app bash
 ```
-## 3. password_manager.shを実行して下さい
+## 3. appに移動して下さい
+cd app
+
+## 4. password_manager.shを実行して下さい
 ```rb
-bash ./password_manager.sh
+bash password_manager.sh
 ```
+## 5. gpgのパスワードはpassとなります(実行の初回の取得時に必要)
