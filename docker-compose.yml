@@ -4,6 +4,8 @@ services:
   app:
     build:
       context: .
-      dockerfile: docker/app/Dockerfile
+      dockerfile: Dockerfile
     stdin_open: true
     tty: true
+    volumes:
+      - ./app:/app
